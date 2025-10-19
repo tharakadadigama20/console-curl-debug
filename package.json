@@ -1,6 +1,6 @@
 {
   "name": "console-curl-debug",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Prints curl commands for HTTP requests — useful for microservice debugging.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

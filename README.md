@@ -5,6 +5,7 @@ A tiny helper to print the equivalent cURL command for any HTTP request — usef
 ## Installation
 ```bash
 npm install console-curl
+```
 
 ## Usage
 
@@ -19,7 +20,7 @@ consoleCurlUrl({
 });
 ```
 
-Output:
+## Output:
 
 ```
 ----------------- Debug cURL command -----------------

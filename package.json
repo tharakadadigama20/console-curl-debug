@@ -1,0 +1,29 @@
+{
+  "name": "console-curl-debug",
+  "version": "1.0.2",
+  "description": "Prints curl commands for HTTP requests — useful for microservice debugging.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha -r ts-node/register \"tests/**/*.test.ts\"",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^5.0.0",
+    "@types/mocha": "^10.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "keywords": [
+    "curl",
+    "debug",
+    "microservices",
+    "node",
+    "http"
+  ],
+  "author": "Tharaka",
+  "license": "MIT"
+}

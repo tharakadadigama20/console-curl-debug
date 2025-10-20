@@ -1,10 +1,11 @@
 # console-curl
 
 A tiny helper to print the equivalent cURL command for any HTTP request — useful for debugging microservice calls.
+URL: https://www.npmjs.com/package/console-curl-debug
 
 ## Installation
 ```bash
-npm install console-curl
+npm i console-curl-debug
 ```
 
 ## Usage

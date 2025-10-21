@@ -1,4 +1,4 @@
-# console-curl
+# console-curl-debug
 
 A tiny helper to print the equivalent cURL command for any HTTP request — useful for debugging microservice calls.
 URL: https://www.npmjs.com/package/console-curl-debug

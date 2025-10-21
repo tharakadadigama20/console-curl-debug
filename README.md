@@ -25,7 +25,7 @@ consoleCurlUrl({
 
 ```
 ----------------- Debug cURL command -----------------
-curl -X POST 'https://api.example.com/v1/user' \
+curl -X POST 'https://api.example.com/api/v1/user' \
     -H 'Accept: application/json' \
     -H 'Content-Type: application/json' \
     -H 'Authorization: Bearer my-token' \
